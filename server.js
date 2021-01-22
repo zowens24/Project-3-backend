@@ -13,6 +13,8 @@ const usersRouter = require('./routes/api/users');
 
 require('./config/database');
 
+
+
 app.use(logger('dev'));
 app.use(express.json());
 app.use(cors());
